@@ -1,4 +1,4 @@
-# PitchMath — Football Analytics & Betting Platform
+# PitchMath — Football Analytics Platform
 
 A full-stack football analytics platform: an **extraction pipeline** pulls fixtures,
 team and player stats from [API-Football](https://www.api-football.com/) into a
