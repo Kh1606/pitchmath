@@ -1,0 +1,26 @@
+# England — FA Cup
+competition_id: 45
+name: "FA Cup"
+country: "England"
+type: "cup"
+season: 2025
+mode: "cup"
+
+# Cup rounds — no numeric prefix, process all
+# Optionally restrict to specific rounds:
+rounds_exact:
+  - "Round of 64"
+  - "Round of 32"
+  - "Round of 16"
+  - "Quarter-finals"
+  - "Semi-finals"
+  - "Final"
+
+
+request_delay: 0.25
+
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

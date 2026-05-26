@@ -1,0 +1,20 @@
+competition_id: 143
+name: "Copa del Rey"
+country: "Spain"
+type: "cup"
+season: 2025
+mode: "cup"
+
+rounds_exact:
+  - "Round of 64"
+  - "Round of 32"
+  - "Round of 16"
+  - "Quarter-finals"
+  - "Semi-finals"
+  - "Final"
+request_delay: 0.25
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

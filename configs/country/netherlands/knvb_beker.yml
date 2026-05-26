@@ -1,0 +1,21 @@
+competition_id: 90
+name: "KNVB Beker"
+country: "Netherlands"
+type: "cup"
+season: 2025
+mode: "cup"
+request_delay: 0.25
+
+# Cup filtering: skip preliminary rounds (lower-tier)
+rounds_exact:
+  - "Round of 32"
+  - "Round of 16"
+  - "Quarter-finals"
+  - "Semi-finals"
+  - "Final"
+
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

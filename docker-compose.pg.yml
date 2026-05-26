@@ -1,0 +1,15 @@
+services:
+  metaren_postgres:
+    image: postgres:16
+    container_name: metaren_postgres
+    environment:
+      POSTGRES_DB: metaren
+      POSTGRES_USER: metaren
+      POSTGRES_PASSWORD: metaren_pw
+    ports:
+      - "5433:5432"
+    volumes:
+      - metaren_pgdata:/var/lib/postgresql/data
+
+volumes:
+  metaren_pgdata:

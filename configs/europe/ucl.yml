@@ -1,0 +1,28 @@
+# Europe — UEFA Champions League
+competition_id: 2
+name: "UEFA Champions League"
+country: "World"
+type: "europe"
+season: 2025
+mode: "cup"
+
+# UCL has named rounds — process all by default.
+# Optionally filter:
+rounds_exact:
+  - "League Stage - 1"
+  - "League Stage - 2"
+  - "League Stage - 3"
+  - "League Stage - 4"
+  - "League Stage - 5"
+  - "League Stage - 6"
+  - "League Stage - 7"
+  - "League Stage - 8"
+
+
+request_delay: 0.25
+
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

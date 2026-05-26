@@ -1,0 +1,23 @@
+competition_id: 96
+name: "Taca de Portugal"
+country: "Portugal"
+type: "cup"
+season: 2025
+mode: "cup"
+request_delay: 0.25
+
+# Cup filtering: start when Primeira Liga teams typically enter (3rd round / Round of 64)
+rounds_exact:
+  - "3rd Round"
+  - "Round of 64"
+  - "Round of 32"
+  - "Round of 16"
+  - "Quarter-finals"
+  - "Semi-finals"
+  - "Final"
+
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

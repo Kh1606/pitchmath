@@ -1,0 +1,22 @@
+# England — Premier League
+competition_id: 39
+name: "Premier League"
+country: "England"
+type: "league"
+season: 2025
+mode: "league"
+
+# Round settings
+round_prefix: "Regular Season"
+round_start: 1
+round_end: 38
+
+# Rate limiting (Pro plan: 300 req/min)
+request_delay: 0.25
+
+# Endpoints to fetch
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true       # 1H corners unreliable; goals/cards derived from events

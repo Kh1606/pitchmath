@@ -1,0 +1,16 @@
+# Spain — La Liga
+competition_id: 140
+name: "La Liga"
+country: "Spain"
+type: "league"
+season: 2025
+mode: "league"
+round_prefix: "Regular Season"
+round_start: 1
+round_end: 38
+request_delay: 0.25
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

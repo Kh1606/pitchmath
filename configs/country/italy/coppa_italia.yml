@@ -1,0 +1,22 @@
+competition_id: 137
+name: "Coppa Italia"
+country: "Italy"
+type: "cup"
+season: 2025
+mode: "cup"
+
+rounds_exact:
+  - "Preliminary Round"
+  - "1st Round"
+  - "2nd Round"
+  - "3rd Round"
+  - "Quarter-finals"
+  - "Semi-finals"
+
+
+request_delay: 0.25
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

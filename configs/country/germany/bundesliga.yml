@@ -1,0 +1,15 @@
+competition_id: 78
+name: "Bundesliga"
+country: "Germany"
+type: "league"
+season: 2025
+mode: "league"
+round_prefix: "Regular Season"
+round_start: 1
+round_end: 34
+request_delay: 0.25
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

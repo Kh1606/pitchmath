@@ -1,0 +1,12 @@
+competition_id: 81
+name: "DFB Pokal"
+country: "Germany"
+type: "cup"
+season: 2025
+mode: "cup"
+request_delay: 0.25
+endpoints:
+  fetch_fixtures: true
+  fetch_team_stats: true
+  fetch_player_stats: true
+  fetch_events: true

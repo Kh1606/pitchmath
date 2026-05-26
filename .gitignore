@@ -1,0 +1,28 @@
+# Secrets / local config
+.env
+Host metaren-vps.txt
+
+# Database & backups
+backups/
+*.dump
+db/*.db
+db/*.sqlite
+db/*.sqlite3
+
+# Bulk data exports (schema sample is kept)
+csv/*.csv
+!csv/_schema.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
