@@ -1,6 +1,6 @@
 """
-Match Analyzer Component for MetaRen Analytics
-Head-to-head betting analysis with line engine.
+Match Analyzer Component for PitchMath Analytics
+Head-to-head analysis with form-line engine.
 """
 
 import streamlit as st
@@ -178,7 +178,7 @@ def render_match_analyzer_main(selections: dict, df_matches: pd.DataFrame,
 def render_betting_analysis(df_matches: pd.DataFrame, df_team_stats: pd.DataFrame,
                             home_team: str, away_team: str, period: str,
                             include_corners: bool = True):
-    """Render betting analysis for a specific period."""
+    """Render form-line analysis for a specific period."""
     
     if include_corners:
         # Full match: Goals, Corners, Cards
@@ -293,7 +293,7 @@ def render_market_analysis(df_matches: pd.DataFrame, df_team_stats: pd.DataFrame
 
 
 def render_specials_analysis(df_matches: pd.DataFrame, home_team: str, away_team: str):
-    """Render special markets analysis (BTTS, Draw at least one half)."""
+    """Render extra-stats analysis (BTTS, Draw at least one half)."""
     
     st.markdown("### ⭐ Special Markets")
     

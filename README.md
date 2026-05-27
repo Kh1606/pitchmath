@@ -3,7 +3,7 @@
 A full-stack football analytics platform: an **extraction pipeline** pulls fixtures,
 team and player stats from [API-Football](https://www.api-football.com/) into a
 **Postgres (or SQLite)** database, and a **Streamlit** app turns that data into
-match/team/player betting analysis, form lines and a "Team DNA" radar.
+match/team/player analysis, form lines and a "Team DNA" radar.
 
 > Internally the codebase is named `metaren`; PitchMath is the product name.
 
@@ -92,8 +92,8 @@ streamlit run app.py
 
 ### 3. What you'll see
 
-- **Match Analyzer**: Head-to-head betting analysis with line engine
-- **Team Analyzer**: Single team form, betting lines, Team DNA radar
+- **Match Analyzer**: Head-to-head analysis with form-line engine
+- **Team Analyzer**: Single team form, stat lines, Team DNA radar
 - **Player Analyzer**: Player props and per-match stats
 - **Fixtures**: Upcoming match schedule from all extracted competitions
 

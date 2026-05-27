@@ -1,6 +1,6 @@
 """
-Team Analyzer Component for MetaRen Analytics
-Single team form analysis with betting lines + Team DNA.
+Team Analyzer Component for PitchMath Analytics
+Single team form analysis with stat lines + Team DNA.
 """
 
 import streamlit as st
@@ -83,7 +83,7 @@ def render_team_analyzer_main(selections: dict, df_matches: pd.DataFrame,
     st.markdown("<br>", unsafe_allow_html=True)
     
     # Tabs
-    tab1, tab2 = st.tabs(["📈 Betting Lines", "🧬 Team DNA"])
+    tab1, tab2 = st.tabs(["📈 Stat Lines", "🧬 Team DNA"])
     
     with tab1:
         render_team_betting_lines(df_matches, df_team_stats, team, venue_filter)
@@ -148,9 +148,9 @@ def render_team_summary_metrics(df_team: pd.DataFrame, df_team_stats: pd.DataFra
 
 def render_team_betting_lines(df_matches: pd.DataFrame, df_team_stats: pd.DataFrame,
                                team: str, venue: str):
-    """Render betting lines analysis for single team."""
-    
-    st.markdown("### 📈 Betting Line Analysis")
+    """Render stat-line analysis for single team."""
+
+    st.markdown("### 📈 Stat Line Analysis")
     
     # Key prefix for unique keys
     key_prefix = "team_betting"

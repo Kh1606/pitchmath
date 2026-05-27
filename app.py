@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-MetaRen - Football Analytics & Betting App
+PitchMath - Football Analytics App
 REFACTORED: Modular architecture with isolated components.
 
 Features:
-- Match Analyzer (default): Head-to-head betting analysis with line engine
-- Team Analyzer: Single team form with betting lines + Team DNA
-- Player Analyzer: Player props and performance tracking
+- Match Analyzer (default): Head-to-head analysis with form-line engine
+- Team Analyzer: Single team form with stat lines + Team DNA
+- Player Analyzer: Player stats and performance tracking
 - Fixtures: Upcoming match schedule from all extracted competitions
 
 Run with: streamlit run app.py
@@ -373,8 +373,8 @@ def main():
     if len(df_matches) == 0:
         st.markdown(f"""
         <div class="dashboard-header">
-            <h1>⚽ MetaRen Analytics</h1>
-            <p>{mode} | Football Betting Intelligence</p>
+            <h1>⚽ PitchMath Analytics</h1>
+            <p>{mode} | Football Analytics Intelligence</p>
         </div>
         """, unsafe_allow_html=True)
         st.markdown("""
@@ -391,8 +391,8 @@ def main():
     # Render header based on mode
     st.markdown(f"""
     <div class="dashboard-header">
-        <h1>⚽ MetaRen Analytics</h1>
-        <p>{mode} | Football Betting Intelligence</p>
+        <h1>⚽ PitchMath Analytics</h1>
+        <p>{mode} | Football Analytics Intelligence</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -408,7 +408,7 @@ def main():
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.markdown("""
     <div style="text-align: center; color: #4B5563; font-size: 0.8rem; padding: 1rem;">
-        MetaRen Analytics | Match-Centric Betting Analyzer
+        PitchMath Analytics | Match-Centric Analyzer
     </div>
     """, unsafe_allow_html=True)
 
