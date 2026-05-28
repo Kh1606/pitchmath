@@ -9,6 +9,10 @@ match/team/player analysis, form lines and a "Team DNA" radar.
 
 **Stack:** Python · Streamlit · Plotly · Postgres / SQLite · API-Football
 
+![How it works](docs/howitworks.png)
+
+*Rendered from [`docs/howitworks.py`](docs/howitworks.py) (Python `diagrams` library).*
+
 ## Project Structure
 
 ```
